@@ -5,7 +5,7 @@
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/xuanzhi33/vscode-calculator"
 	},
 	"engines": {
 		"vscode": "^1.63.0"
