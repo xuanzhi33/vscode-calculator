@@ -1,5 +1,5 @@
 {
-  "name": "calculator",
+  "name": "simple-calculator",
 	"displayName": "Calculator",
 	"description": "A simple calculator for VS Code.",
 	"version": "0.0.1",
