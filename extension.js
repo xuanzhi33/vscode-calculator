@@ -15,12 +15,17 @@ function activate(context) {
 		// Get the text that user has selected
 		let editor = vscode.window.activeTextEditor;
 		
+		let prefillText = "";
+		if (editor) {
+			let selection = editor.selection;
+			prefillText = editor.document.getText(selection);
+		}
 
 		// Ask user to input a math expression
 		vscode.window.showInputBox({
 			placeHolder: 'Please input a math expression',
 			ignoreFocusOut: true,
-			value: editor.document.getText(editor.selection)
+			value: prefillText
 		}).then(function (input) {
 			if (input) {
 				// calculate the result
