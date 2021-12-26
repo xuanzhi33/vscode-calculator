@@ -3,6 +3,10 @@
 	"displayName": "Calculator",
 	"description": "A simple calculator for VS Code.",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
 	"engines": {
 		"vscode": "^1.63.0"
 	},

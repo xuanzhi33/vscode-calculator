@@ -1,65 +1,51 @@
-# calculator README
+# Calculator for VS Code
 
-This is the README for your extension "calculator". After writing up a brief description, we recommend including the following sections.
+## How to use
 
-## Features
+### Start
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+To use the calculator, type `calculator` in the command palette.
 
-For example if there is an image subfolder under your extension project workspace:
+You can also use **key bindings** to start the calculator quickly:
 
-\!\[feature X\]\(images/feature-x.png\)
+Windows: <kbd>Ctrl+Alt+L</kbd>
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Mac: <kbd>Cmd+Alt+L</kbd>
 
-## Requirements
+### Calculate
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+You can type a **math expression** into the input box to calculate, and the result will be displayed as a **notification**.
 
-## Extension Settings
+Examples of math expression:
+- `1 + 1`
+- `1 - 1 * 2`
+- `2**3+7*(3+1)`
+- `(1.1 + 7.4)/5`
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+You can use JavaScript's Math library for more advanced calculations:
+- `Math.sqrt(9)`
+- `Math.pow(2, 3)`
+- `Math.round(3.14)`
+- `Math.floor(3.14)`
+- `Math.abs(-3.14)`
+- `Math.min(1, 4, 9)`
+- `Math.random()`
+- `Math.PI`
+- `Math.sin(x)`
+- ...
 
-For example:
+### Tips
 
-This extension contributes the following settings:
+If you have **selected** some text in the editor when you open the calculator, the text will automatically appear in the input box for you to calculate.
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## Screenshots
 
-## Known Issues
+![Z3tJML_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/Z3tJML_20211226.png)
+![dJaBJs_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/dJaBJs_20211226.png)
+![GKUGvR_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/GKUGvR_20211226.png)
+![cADHjc_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/cADHjc_20211226.png)
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
-## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
