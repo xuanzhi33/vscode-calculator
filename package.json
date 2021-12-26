@@ -1,0 +1,46 @@
+{
+  "name": "calculator",
+	"displayName": "Calculator",
+	"description": "A simple calculator for VS Code.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"publisher": "xuanzhi33",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:calculator.calculator"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "calculator.calculator",
+            "title": "Calculator"
+
+		}],
+		"keybindings": [{
+			"key": "ctrl+alt+l",
+			"mac": "cmd+alt+l",
+			"command": "calculator.calculator"
+		}]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.63.0",
+        "@types/glob": "^7.1.4",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "14.x",
+        "eslint": "^8.1.0",
+        "glob": "^7.1.7",
+        "mocha": "^9.1.3",
+        "typescript": "^4.4.4",
+        "@vscode/test-electron": "^1.6.2"
+    }
+
+}
