@@ -30,8 +30,12 @@ function activate(context) {
 			if (input) {
 				// calculate the result
 				let result = eval(input);
-				// show the result
-				vscode.window.showInformationMessage("The result is "+result.toString());
+				// show the result in a notification with a copy button
+				vscode.window.showInformationMessage(`The result is ${result}`, 'Copy').then(function (selection) {
+					if (selection === 'Copy') {
+						vscode.env.clipboard.writeText(result.toString());
+					}
+				});
 			}
 		}
 		);
