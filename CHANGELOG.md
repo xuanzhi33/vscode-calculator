@@ -2,7 +2,7 @@
 
 All notable changes to the "calculator" extension will be documented in this file.
 
-## [0.2.0] - 2022-02-15
+## [0.2.1] - 2022-02-15
 
 - Added the copy button to the result notification.
 
