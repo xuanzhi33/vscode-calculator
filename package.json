@@ -2,7 +2,7 @@
   "name": "simple-calculator",
   "displayName": "Calculator",
   "description": "A simple calculator for VS Code.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/xuanzhi33/vscode-calculator"
