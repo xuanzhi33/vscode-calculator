@@ -38,14 +38,6 @@ You can use JavaScript's Math library for more advanced calculations:
 
 If you have **selected** some text in the editor when you open the calculator, the text will automatically appear in the input box for you to calculate.
 
-## Screenshots
-
-![Z3tJML_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/Z3tJML_20211226.png)
-![dJaBJs_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/dJaBJs_20211226.png)
-![GKUGvR_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/GKUGvR_20211226.png)
-![cADHjc_20211226](https://gitee.com/xuanzhi33/files/raw/master/files/cADHjc_20211226.png)
-
-
 
 
 **Enjoy!**
