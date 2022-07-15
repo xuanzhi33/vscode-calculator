@@ -1,5 +1,11 @@
 # Calculator for VS Code
 
+[![GitHub issues](https://img.shields.io/github/issues/xuanzhi33/vscode-calculator?style=flat-square)](https://github.com/xuanzhi33/vscode-calculator/issues)
+[![GitHub forks](https://img.shields.io/github/forks/xuanzhi33/vscode-calculator?style=flat-square)](https://github.com/xuanzhi33/vscode-calculator/network)
+[![GitHub stars](https://img.shields.io/github/stars/xuanzhi33/vscode-calculator?style=flat-square)](https://github.com/xuanzhi33/vscode-calculator/stargazers)
+[![GitHub license](https://img.shields.io/github/license/xuanzhi33/vscode-calculator?style=flat-square)](https://github.com/xuanzhi33/vscode-calculator/blob/master/LICENSE)
+
+
 ## How to use
 
 ### Start
@@ -41,3 +47,5 @@ If you have **selected** some text in the editor when you open the calculator, t
 
 
 **Enjoy!**
+
+If you think it is useful, please star the [repository](https://github.com/xuanzhi33/vscode-calculator), thank you.
